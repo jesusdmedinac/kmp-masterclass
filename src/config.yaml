@@ -1,22 +1,20 @@
 site:
   name: KMP Master Class
-  site: 'https://astrowind.vercel.app'
+  site: 'https://kmp-master-class.pages.dev/'
   base: '/'
   trailingSlash: false
-
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
 
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: KMP Master Class
+    template: '%s — KMP Master Class'
+  description: "\U0001F680 Kotlin Multiplatform es una tecnología revolucionaria que permite a los desarrolladores escribir código una vez y ejecutarlo en múltiples plataformas, desde Android y iOS hasta backend y frontend web, aprovechando al máximo el lenguaje Kotlin."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: KMP Master Class
     images:
       - url: '~/assets/images/default.png'
         width: 1200
