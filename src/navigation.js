@@ -6,6 +6,10 @@ export const headerData = {
       text: 'Inicio',
       href: '/'
     },
+    {
+      text: 'Tu instructor',
+      href: '#Instructor'
+    }
   ],
   actions: [
     { 

@@ -4,13 +4,13 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+
 
 const metadata = {
   title: 'KMP Master Class',
@@ -47,6 +47,35 @@ const metadata = {
     </Fragment>
   </Hero>
 
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="Instructor"
+    isReversed
+    tagline="Soy tu instructor"
+    title="JesusDMedinaC"
+    image={{
+      src: '~/assets/images/me-image.jpg',
+      alt: 'Foto de perfil del instructor - Jesús Daniel Medina Cruz',
+    }}
+    items={[
+      {
+        title: "Kotlin Mobile Engineer | Android Mobile Engineer | iOS Mobile Engineer | Kotlin Expert | Compose Expert | Kotlin Multiplatform Expert | Mobile Consultant | Mobile Teacher",
+        icon: 'tabler:device-mobile'
+      },
+    ]}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Kotlin Mobile Engineer</h3>
+      <p>Experto en desarrollo de apps móviles con Kotlin y Kotlin Multiplatform.</p>
+      <p>Con más de 8 años de experiencia en desarrollo de Apps Nativas para Android.</p>
+      <p>He ayudado a equipos a migrar de Java a Kotlin.</p>
+      <p>He impulsado el uso de Kotlin Multiplatform en equipos pequeños y grandes proyectos.</p>
+      <p>Con experiencia en Startups, unicornios y corporaciones</p>
+      <p>Ferviente impulsador del uso de TDD, Clean Code y Clean Architecture a la medida</p>
+    </Fragment>
+  </Content>
+
   <!-- Note Widget ******************* -->
 
   <!--<Note />-->
@@ -55,8 +84,8 @@ const metadata = {
 
   <Features
     id="features"
-    tagline="Descripción"
-    title="Crea aplicaciones Multiplatform con un solo lenguaje"
+    tagline="Kotlin Multiplatform Masterclass"
+    title="Crea aplicaciones Multiplatforma con un solo lenguaje"
     subtitle="Kotlin Multiplatform se convirtió en la mejor alternativa para desarrollar Sistemas Multiplataforma a la medida. No es necesario migrar todo a Kotlin; puedes integrarlo un feature a la vez."
     items={[
       {
@@ -301,70 +330,6 @@ const metadata = {
       alt: 'Steps image',
     }}
   />
-
-  <!-- Features2 Widget ************** -->
-
-  <!--<Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
-    items={[
-      {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
-        description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
-        icon: 'flat-color-icons:gallery',
-      },
-      {
-        title: 'Features',
-        description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
-        icon: 'flat-color-icons:approval',
-      },
-      {
-        title: 'Content',
-        description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
-      },
-    ]}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>-->
 
   <!-- HighlightedPosts Widget ******* -->
 

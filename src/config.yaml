@@ -1,5 +1,5 @@
 site:
-  name: KMP Master Class
+  name: Kotlin Multiplatform Masterclass
   site: 'https://kmp-master-class.pages.dev/'
   base: '/'
   trailingSlash: false
@@ -7,14 +7,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: KMP Master Class
-    template: '%s — KMP Master Class'
-  description: "\U0001F680 Kotlin Multiplatform Master Class"
+    default: Kotlin Multiplatform Masterclass
+    template: 'Kotlin Multiplatform Masterclass'
+  description: "Domina Kotlin Multiplatform en esta Masterclass"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: KMP Master Class
+    site_name: Kotlin Multiplatform Masterclass
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -26,7 +26,7 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: es
   textDirection: ltr
 
 apps:
