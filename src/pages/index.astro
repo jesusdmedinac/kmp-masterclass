@@ -43,7 +43,7 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="font-semibold">Kotlin Multiplatform</span> es una tecnología revolucionaria que permite a los desarrolladores escribir código una vez y ejecutarlo en múltiples plataformas, desde Android y iOS hasta backend y frontend web, aprovechando al máximo el lenguaje Kotlin.
+      Aprende a utilizar <span class="font-semibold">Kotlin Multiplatform</span> para Android y iOS hasta backend y frontend web, aprovechando al máximo el lenguaje Kotlin.
     </Fragment>
   </Hero>
 
@@ -53,72 +53,93 @@ const metadata = {
 
   <!-- Features Widget *************** -->
 
-  <!--<Features
+  <Features
     id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
+    tagline="Descripción"
+    title="Crea aplicaciones Multiplatform con un solo lenguaje"
+    subtitle="Kotlin Multiplatform se convirtió en la mejor alternativa para desarrollar Sistemas Multiplataforma a la medida. No es necesario migrar todo a Kotlin; puedes integrarlo un feature a la vez."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Android',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
+          'Con <a href="https://www.jetbrains.com/lp/compose-multiplatform/">Compose Multiplatform</a> basado en <a href="https://developer.android.com/develop/ui/compose">Jetpack Compose</a>',
+        icon: 'tabler:brand-android',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'iOS',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
+          'UI Compartido con <a href="https://www.jetbrains.com/lp/compose-multiplatform/">Compose Multiplatform</a> o UI Nativo con <a href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>',
+        icon: 'tabler:brand-apple',
       },
       {
-        title: 'Best Practices',
+        title: 'Desktop',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
+          'Desktop basado en JVM',
+        icon: 'tabler:device-desktop',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Web',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
+          'Basado en <a href="https://kotlinlang.org/docs/wasm-overview.html">Kotlin/Wasm</a> en fase experimental',
+        icon: 'tabler:world',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Server',
         description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Open to new ideas and contributions',
-        description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
+          'Con todo el poder de <a href="https://ktor.io/">Ktor</a>',
+        icon: 'tabler:server',
       },
     ]}
-  />-->
+  />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Registrarse',
+        href: 'https://bihrbjotxfj.typeform.com/to/SXFiQjzi',
+        target: '_blank',
+        icon: 'tabler:writing-sign'
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      <span class="text-accent dark:text-white highlight"> Kotlin Multiplatform</span> Master Class
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Aprende a utilizar <span class="font-semibold">Kotlin Multiplatform</span> para Android y iOS hasta backend y frontend web, aprovechando al máximo el lenguaje Kotlin.
+    </Fragment>
+  </CallToAction>
 
   <!-- Content Widget **************** -->
 
-  <!--<Content
+  <Content
     isReversed
-    tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
+    tagline="ESTA MASTER CLASS ES PARA TI"
+    title="Si eres desarrollador móvil, web o backend"
     items={[
       {
-        title: 'Built on top of Astro 4.0',
+        title: 'Comparte la capa de datos',
         description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+          'Accede a los datos locales o remotos con un solo código',
       },
       {
-        title: 'Styled using Tailwind CSS',
+        title: 'Unifica la lógica de negocio',
         description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
+          'Garantiza que todas tus apps ejecutan el core con las mismas condiciones',
       },
       {
-        title: 'Cross-browser compatibility',
+        title: 'Comparte el UI entre tus plataformas',
         description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
+          'Puedes compartir desde un solo elemento visual hasta toda la aplicación con Compose Multiplatform',
+      },
+      {
+        title: 'Gestiona un solo Test suit para todas tus plataformas',
+        description:
+          'Define tus test cases y ejecutalos en todas tus plataformas para garantizar la calidad de tu código',
       },
     ]}
     image={{
@@ -127,14 +148,36 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-       Gain a competitive advantage by incorporating industry leading practices
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Agrega Kotlin a cualquier proyecto</h3>
+       Comienza a utilizar kotlin en pequeñas features incrementales
     </Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>-->
+  </Content>
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Registrarse',
+        href: 'https://bihrbjotxfj.typeform.com/to/SXFiQjzi',
+        target: '_blank',
+        icon: 'tabler:writing-sign'
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      <span class="text-accent dark:text-white highlight"> Kotlin Multiplatform</span> Master Class
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Aprende a utilizar <span class="font-semibold">Kotlin Multiplatform</span> para Android y iOS hasta backend y frontend web, aprovechando al máximo el lenguaje Kotlin.
+    </Fragment>
+  </CallToAction>
 
   <!-- Content Widget **************** -->
 
@@ -213,37 +256,51 @@ const metadata = {
 
   <!-- Steps Widget ****************** -->
 
-  <!--<Steps
-    title="Get your dream website up and running in no time with AstroWind."
+  <Steps
+    title="En esta KMP Master Class"
     items={[
       {
-        title: 'Step 1: <span class="font-medium">Download</span>',
+        title: '1: <span class="font-medium">Darás tus primeros pasos en KMP</span>',
         description:
-          "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
-        icon: 'tabler:package',
+          "A través de mi metodología PPB: <ul><li>Proof</li><li>Play</li><li>Broke</li></ul>",
+        icon: 'tabler:stairs',
       },
       {
-        title: 'Step 2: <span class="font-medium">Add content</em>',
+        title: '2: <span class="font-medium">Crearás tu primer proyecto para todas la plataformas</em>',
         description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
-        icon: 'tabler:letter-case',
+          "No nos limitaremos a Mobile, podrás ver cómo todo está integrado",
+        icon: 'tabler:packages',
       },
       {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
+        title: '3: <span class="font-medium">Conocerás las mejores librerías KMP utilizadas por profesionales</span>',
         description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
-        icon: 'tabler:paint',
+          'No inventaremos el hilo negro. Apaláncate de lo mejor',
+        icon: 'tabler:books',
       },
       {
-        title: 'Ready!',
-        icon: 'tabler:check',
+        title: '4: <span class="font-medium">Aprende a vender KMP en tus equipos</span>',
+        description:
+          'Utiliza los consejos del equipo de Jetbrains para que tus equipos se motiven a utilizar KMP',
+        icon: 'tabler:speakerphone',
+      },
+      {
+        title: '5: <span class="font-medium">Agregarás pruebas a tus proyectos</span>',
+        description:
+          'Aprenderás a configurar tus pruebas con Kotlin Test para todas tus plataformas',
+        icon: 'tabler:a-b-2',
+      },
+      {
+        title: '6: <span class="font-medium">Publicarás tus proyectos</span>',
+        description:
+          'Para que puedas compartir con la comunidad lo que aprendiste',
+        icon: 'tabler:cube-send',
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
       alt: 'Steps image',
     }}
-  />-->
+  />
 
   <!-- Features2 Widget ************** -->
 
@@ -373,24 +430,23 @@ const metadata = {
 
   <!-- CallToAction Widget *********** -->
 
-  <!--<CallToAction
+  <CallToAction
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
+        text: 'Registrarse',
+        href: 'https://bihrbjotxfj.typeform.com/to/SXFiQjzi',
         target: '_blank',
-        icon: 'tabler:download',
+        icon: 'tabler:writing-sign'
       },
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      <span class="text-accent dark:text-white highlight"> Kotlin Multiplatform</span> Master Class
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      Aprende a utilizar <span class="font-semibold">Kotlin Multiplatform</span> para Android y iOS hasta backend y frontend web, aprovechando al máximo el lenguaje Kotlin.
     </Fragment>
-  </CallToAction>-->
+  </CallToAction>
 </Layout>

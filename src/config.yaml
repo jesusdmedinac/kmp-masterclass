@@ -9,7 +9,7 @@ metadata:
   title:
     default: KMP Master Class
     template: '%s — KMP Master Class'
-  description: "\U0001F680 Kotlin Multiplatform es una tecnología revolucionaria que permite a los desarrolladores escribir código una vez y ejecutarlo en múltiples plataformas, desde Android y iOS hasta backend y frontend web, aprovechando al máximo el lenguaje Kotlin."
+  description: "\U0001F680 Kotlin Multiplatform Master Class"
   robots:
     index: true
     follow: true
@@ -64,7 +64,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: null # or "G-XXXXXXXXXX"
+      id: G-VK3ERPNG29 # or "G-XXXXXXXXXX"
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
