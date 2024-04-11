@@ -15,7 +15,7 @@ export const headerData = {
     { 
       variant: 'primary',
       text: 'Registrarse', 
-      href: 'https://github.com/onwidget/astrowind', 
+      href: 'https://tally.so/r/3XDpzY', 
       target: '_blank', 
       icon: 'tabler:writing-sign'
     }],
