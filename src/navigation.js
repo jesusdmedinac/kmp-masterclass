@@ -7,9 +7,13 @@ export const headerData = {
       href: '/'
     },
     {
+      text: 'Clases',
+      href: '#subjects'
+    },
+    {
       text: 'Tu instructor',
-      href: '#Instructor'
-    }
+      href: '#instructor'
+    },
   ],
   actions: [
     { 

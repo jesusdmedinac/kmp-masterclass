@@ -47,10 +47,54 @@ const metadata = {
     </Fragment>
   </Hero>
 
+  <!-- Steps Widget ****************** -->
+
+  <Steps
+    id='subjects'
+    title="Contenido de la Masterclass"
+    subtitle='<a href="/calendar/kmp-calendar.ics">Agregar a mi calendario</a>'
+    items={[
+      {
+        title: '1: <span class="font-medium">Primeros pasos y primer proyecto kmp-all-platforms</span>',
+        description:
+          '6 de Julio del 2024 a las 9 pm PST',
+        icon: 'tabler:stairs',
+      },
+      {
+        title: '2: <span class="font-medium">Lista de librerías y herramientas KMP</span>',
+        description:
+          '13 de Julio del 2024 a las 9 pm PST',
+        icon: 'tabler:packages',
+      },
+      {
+        title: '3: <span class="font-medium">Consejos para incorporar KMP en tu equipo</span>',
+        description:
+          '20 de Julio del 2024 a las 9 pm PST',
+        icon: 'tabler:speakerphone',
+      },
+      {
+        title: '4: <span class="font-medium">KMP Test suite</span>',
+        description:
+          '27 de Julio del 2024 a las 9 pm PST',
+        icon: 'tabler:cube-send',
+      },
+      {
+        title: '5: <span class="font-medium">Publicar aplicación y librearía KMP</span>',
+        description:
+          '3 de Agosto del 2024 a las 9 pm PST',
+        icon: 'tabler:books',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+      alt: 'Steps image',
+    }}
+  />
+
   <!-- Content Widget **************** -->
 
   <Content
-    id="Instructor"
+    id="instructor"
     isReversed
     tagline="Soy tu instructor"
     title="JesusDMedinaC"
@@ -282,54 +326,6 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>-->
-
-  <!-- Steps Widget ****************** -->
-
-  <Steps
-    title="En esta KMP Master Class"
-    items={[
-      {
-        title: '1: <span class="font-medium">Darás tus primeros pasos en KMP</span>',
-        description:
-          "A través de mi metodología PPB: <ul><li>Proof</li><li>Play</li><li>Broke</li></ul>",
-        icon: 'tabler:stairs',
-      },
-      {
-        title: '2: <span class="font-medium">Crearás tu primer proyecto para todas la plataformas</em>',
-        description:
-          "No nos limitaremos a Mobile, podrás ver cómo todo está integrado",
-        icon: 'tabler:packages',
-      },
-      {
-        title: '3: <span class="font-medium">Conocerás las mejores librerías KMP utilizadas por profesionales</span>',
-        description:
-          'No inventaremos el hilo negro. Apaláncate de lo mejor',
-        icon: 'tabler:books',
-      },
-      {
-        title: '4: <span class="font-medium">Aprende a vender KMP en tus equipos</span>',
-        description:
-          'Utiliza los consejos del equipo de Jetbrains para que tus equipos se motiven a utilizar KMP',
-        icon: 'tabler:speakerphone',
-      },
-      {
-        title: '5: <span class="font-medium">Agregarás pruebas a tus proyectos</span>',
-        description:
-          'Aprenderás a configurar tus pruebas con Kotlin Test para todas tus plataformas',
-        icon: 'tabler:a-b-2',
-      },
-      {
-        title: '6: <span class="font-medium">Publicarás tus proyectos</span>',
-        description:
-          'Para que puedas compartir con la comunidad lo que aprendiste',
-        icon: 'tabler:cube-send',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
-    }}
-  />
 
   <!-- HighlightedPosts Widget ******* -->
 
